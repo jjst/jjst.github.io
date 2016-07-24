@@ -3,8 +3,16 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'J\xe9r\xe9mie Jost'
-SITENAME = u'omg | wtf | bbq'
+SITENAME = u'Jérémie Jost'
 SITEURL = ''
+
+THEME = 'crowsfoot'
+
+# Theme-specific config
+EMAIL_ADDRESS = 'jeremiejost@gmail.com'
+GITHUB_ADDRESS = 'https://github.com/jjst/'
+SO_ADDRESS = 'http://stackoverflow.com/users/887422/jjst'
+TWITTER_ADDRESS = 'https://twitter.com/j_jost'
 
 PATH = 'content'
 
