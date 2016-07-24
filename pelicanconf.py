@@ -13,6 +13,8 @@ EMAIL_ADDRESS = 'jeremiejost@gmail.com'
 GITHUB_ADDRESS = 'https://github.com/jjst/'
 SO_ADDRESS = 'http://stackoverflow.com/users/887422/jjst'
 TWITTER_ADDRESS = 'https://twitter.com/j_jost'
+LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
+LICENSE_NAME = 'CC-BY-SA 4.0'
 
 PATH = 'content'
 
