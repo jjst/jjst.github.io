@@ -16,6 +16,8 @@ TWITTER_ADDRESS = 'https://twitter.com/j_jost'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 LICENSE_NAME = 'CC-BY-SA 4.0'
 
+STATIC_PATHS = ['images']
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Dublin'
