@@ -37,6 +37,11 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
+# Publish articles as Draft unless they contain "Status: published" in their metadata
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
+
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
