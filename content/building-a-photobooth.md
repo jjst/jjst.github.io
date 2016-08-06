@@ -1,6 +1,7 @@
 Title: Building a photobooth in Python
-Date: 2016-08-01 18:00
+Date: 2016-08-06 18:00
 Tags: recurse center, hardware hacking, python
+Status: published
 Summary: How we built a photobooth in 5 hours for the Recurse Center's 5 years party
 
 The [Recurse Center is 5 years old](https://www.recurse.com/five-years)!  Faculty threw a small party in the RC space
