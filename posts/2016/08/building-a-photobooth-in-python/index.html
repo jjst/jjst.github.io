@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <title>Building a photobooth in Python</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-</head>
+  <head>
+      <title>Jérémie Jost</title>
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css' />
+      <link href='//fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'/>
+      <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700' rel='stylesheet' type='text/css'/>
+      <link rel="stylesheet" type="text/css" href="/theme/css/icons.css"/>
+      <link rel="stylesheet" type="text/css" href="/theme/css/styles.css"/>
+      <meta charset="utf-8" />
+  </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Jérémie Jost </a></h1>
-                <nav><ul>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="/posts/2016/08/building-a-photobooth-in-python/" rel="bookmark"
-           title="Permalink to Building a photobooth in Python">Building a photobooth in Python</a></h1>
+  <body id="index">
+    <!-- header -->
+    <header class="siteheader">
+      <!-- site image -->
+
+      <div class = "sitebanner">
+        <h1><a class="sitetitle nodec" href="">Jérémie Jost</a></h1>
+        <h3 class ="sitesubtitle"></h3>
+        <!-- nav -->
+        <nav class="menu">
+          <ul>
+            <!-- menu items-->
+            <!--pages-->
+            <!-- services icons -->
+              <li><a class="nodec icon-mail-alt" href="mailto:jeremiejost@gmail.com"></a></li>
+              <li><a class="nodec icon-github" href="https://github.com/jjst/"></a></li>
+              <li><a class="nodec icon-stackoverflow" href="http://stackoverflow.com/users/887422/jjst"></a></li>
+              <li><a class="nodec icon-twitter" href="https://twitter.com/j_jost"></a></li>
+          </ul>
+        </nav>
+      </div> <!-- sitebanner -->
     </header>
 
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2016-08-06T18:00:00+01:00">
-                Published: Sat 06 August 2016
-        </abbr>
+    <!-- content -->
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/jeremie-jost.html">Jérémie Jost</a>
-        </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-<p>tags: <a href="/tag/recurse-center.html">recurse center</a> <a href="/tag/hardware-hacking.html">hardware hacking</a> <a href="/tag/python.html">python</a> </p>
-</footer><!-- /.post-info -->      <p>The <a href="https://www.recurse.com/five-years">Recurse Center is 5 years old</a>!  Faculty threw a small party in the RC space
+<section class="content">
+
+  <h3 class="posttitle">
+    <a class="nodec" href="/posts/2016/08/building-a-photobooth-in-python/" rel="bookmark" title="Permalink to Building a photobooth in Python">
+      Building a photobooth in Python
+    </a>
+  </h3>
+
+  <div class="postinfo">
+    <p class="published" title="2016-08-06T18:00:00+01:00">
+      Sat 06 August 2016
+    </p>
+
+  </div><!-- .postinfo -->
+
+  <div class="article">
+    <p>The <a href="https://www.recurse.com/five-years">Recurse Center is 5 years old</a>!  Faculty threw a small party in the RC space
 to celebrate the occasion, with current batch members and alumns welcome. Me and Philipp
 (<a href="https://twitter.com/philj0st">@philj0st</a>) marked the occasion by building a photobooth.
 Guests could use it to snap pics which then got posted to our internal chat system:</p>
@@ -156,37 +173,19 @@ put the shoebox with the arcade button and the N64 controller on a shelf, then m
 it. Plug everything together, set up the lighting, add some props, and voila! We're ready to take some pics, just in
 time for the party to start!</p>
 <p><img alt="Photobooth setup" src="/images/photobooth-setup.jpg" /></p>
-    </div><!-- /.entry-content -->
+  </div><!-- .content -->
 
-  </article>
 </section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
-</body>
+    <!-- footer -->
+    <footer>
+      <p>
+        © Jérémie Jost, license <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC-BY-SA 4.0</a>
+        unless otherwise noted.
+        Generated by <a href= "http://docs.getpelican.com/">Pelican</a> with
+        <a href="http://github.com/porterjamesj/crowsfoot">crowsfoot</a> theme.
+      </p>
+    </footer>
+  </body>
 </html>
