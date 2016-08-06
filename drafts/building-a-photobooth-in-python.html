@@ -61,7 +61,7 @@ Guests could use it to snap pics which then got posted to our internal chat syst
 <h2>12:00</h2>
 <p>After learning of the existence of a photobooth at a previous Recurse Center event, and finding a spare HD camera in
 the building earlier this week, Philip and I agreed to meet today and try to recreate the experience. Only problem: the
-party is in a few hours already, so we have to move quick. We draft a plan to make it happen while having lunch at a
+party is in a few hours, so we have to move quick. We are drafting a plan to make it happen whilst having lunch at a
 French restaurant with other Recursers.</p>
 <h2>13:30</h2>
 <p>First things first, materials! We head over to <a href="http://tinkersphere.com/">Tinkersphere</a>. On our way there, Philipp gets
@@ -73,17 +73,17 @@ though). Here's the list of supplies we have/need:</p>
 <li>A wifi module or dongle, to connect the pi to the internets ✗</li>
 <li>A prop, device or button to act as a trigger for the photo ✗</li>
 </ul>
-<p>We end up buying a Raspberry Pi 3 (because it has a wifi module builtin, and I figure it's only 20 dollars
-more expensive than a wifi dongle would be), an SD card, and a pink arcade button to act as our trigger.</p>
+<p>We leave the store with a Raspberry Pi 3 (because it comes with a wifi module builtin, and I figure it's only 20
+dollars more expensive than a wifi dongle), an SD card, and a pink arcade button to act as our trigger.</p>
 <h2>14:00</h2>
 <p>On our way back to the Recurse Center, Philipp realises that his old laptop is still lingering there unused. It's still
 functional, except for the battery, which shouldn't be too much of an issue. Using the laptop to power the photobooth
-will probably be much faster as it's already set up. We realise there is soon going to be a new Raspberry Pi sitting
-idle in the space for nothing!</p>
-<p>We reach the space and find the laptop. There's only one problem: it's a swiss laptop. We end up spending the next 20
-minutes frantically searching for a swiss-to-US power converter. Meanwhile, I install
-<a href="https://www.raspberrypi.org/downloads/noobs/">NOOBS</a> on the SD card just in case we end up needing to use the
-Raspberry Pi after all.</p>
+will be much faster as it's already set up. We realise there is soon to be a new Raspberry Pi sitting idle in the space
+for nothing!</p>
+<p>We reach the space and find the computer. There's only one problem: it's a Swiss laptop. We end up spending the next 20
+minutes frantically searching for a Swiss-to-US power converter. Meanwhile, I install
+<a href="https://www.raspberrypi.org/downloads/noobs/">NOOBS</a> on the SD card just in case we need to use the Raspberry Pi after
+all.</p>
 <h2>14:20</h2>
 <p>I inform Rachel, Recurse Center's operations manager, of our evil plans. We get the get go to use the cloak room for
 our photobooth install, and Rachel helps me by trying to dig the code for the old photobooth that we talked about
@@ -98,12 +98,12 @@ seems to be a fair amount of hardcoded things which are going to make it tricky 
 code.</p>
 <p>I decide to start working on Plan B. We use <a href="http://zulip.com/">Zulip</a> as our internal chat system, and I've been
 contributing to a Zulip bot called <a href="https://github.com/kokeshii/RSVPBot/">RSVPBot</a> recently. I copy the code from
-RSVPBot and tear it to shreads, only keeping the bits related to message sending. The plan in its current form is then
-as follows:</p>
+RSVPBot and tear it to shreads, only keeping the bits related to message sending. The plan in its current form is as
+follows:</p>
 <ul>
-<li>wire and solder the arcade button we bought to an Nintendo 64 arcade controller we found, plugged to the laptop via
+<li>wire and solder the arcade button we bought to an Nintendo 64 controller we found, plugged to the laptop via
   USB,</li>
-<li>remap the Cheese controls so that the arcade button triggers a picture,</li>
+<li>remap the Cheese controls so that the button triggers a picture,</li>
 <li>have our new Zulip bot use <a href="https://en.wikipedia.org/wiki/Inotify">inotify</a> to watch the Cheese folder for new
   pictures, and post a message to a dedicated stream with the new picture enclosed.</li>
 </ul>
@@ -159,9 +159,9 @@ and <a href="http://www.ubergallery.net/">UberGallery</a>, and configures Cheese
 server by UberGallery.</p>
 <p>Meanwhile, I roam the space to find some cardboard we can use as the dashboard for our photobooth. I find a shoebox
 that makes the trick and cut a hole the size of the arcade button using a utility knife. There's only one problem: we
-have to undo the soldering to be able to fit the arcade button in. Soldering the button inside the shoebox turns out to
-be a lot more finicky, but Philipp manages. We wait for the solder to cool, then test everything again. Still works!
-The dashboard ends up looking like this:</p>
+have to undo the soldering to be able to fit the button in. Re-soldering everything inside the shoebox turns out to be
+a lot more finicky, but Philipp manages. We wait for the solder to cool, then test everything again. Still works!  The
+dashboard ends up looking like this:</p>
 <p><img alt="Photobooth dashboard" src="/images/photobooth-dashboard.jpg" /></p>
 <p>Here's what it looks like inside, where you can see the N64 controller:</p>
 <p><img alt="Photobooth inside" src="/images/photobooth-inside.jpg" /></p>
