@@ -1,7 +1,8 @@
 Title: Group pomodoros are awesome
-Date: 2016-08-08 18:00
+Date: 2016-08-10 18:00
 Tags: recurse center, productivity, pomodoro
 Summary: What's even better than using the pomodoro technique? Using it together with other people!
+Status: published
 
 
 Some of us productivity nerds tried something new this week at the [Recurse Center](http://recurse.com/): group
@@ -46,6 +47,9 @@ dedicated shelf. This way everyone could constantly see how much time was left i
 with standard pomodoro, you could always do it low-tech and just use a standard kitchen timer).  Also, and this is the
 most crucial part: we implemented a reward system by having a huge bowl of M&M's everyone could pick from during their
 pomodoro breaks.
+
+![Setup]({filename}/images/pomodoro/pomodoro-setup.jpg)
+<center><small>Our Pomodoro room setup</small></center>
 
 So if you've been using the pomodoro technique and know teammates or coworkers who do as well, I highly
 recommend trying out group pomodoros. And if you haven't used the pomodoro technique yet, give it a shot the next time
