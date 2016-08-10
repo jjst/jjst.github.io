@@ -20,6 +20,10 @@ body {
     margin: 20px auto 100px auto; /* For sticky footer. */
 }
 
+small {
+    font-size: 14px;
+}
+
 /* Site header. */
 
 .sitebanner {

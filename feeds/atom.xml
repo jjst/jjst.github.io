@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Jérémie Jost</title><link href="https://jjst.github.io/" rel="alternate"></link><link href="https://jjst.github.io/feeds/atom.xml" rel="self"></link><id>https://jjst.github.io/</id><updated>2016-08-06T18:00:00+01:00</updated><entry><title>Building a photobooth in Python</title><link href="https://jjst.github.io/posts/2016/08/building-a-photobooth-in-python/" rel="alternate"></link><published>2016-08-06T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-08-06:posts/2016/08/building-a-photobooth-in-python/</id><summary type="html">&lt;p&gt;The &lt;a href="https://www.recurse.com/five-years"&gt;Recurse Center is 5 years old&lt;/a&gt;!  Faculty threw a small party in the RC space
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jérémie Jost</title><link href="https://jjst.github.io/" rel="alternate"></link><link href="https://jjst.github.io/feeds/atom.xml" rel="self"></link><id>https://jjst.github.io/</id><updated>2016-08-10T18:00:00+01:00</updated><entry><title>Group pomodoros are awesome</title><link href="https://jjst.github.io/posts/2016/08/group-pomodoros-are-awesome/" rel="alternate"></link><published>2016-08-10T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-08-10:posts/2016/08/group-pomodoros-are-awesome/</id><summary type="html">&lt;p&gt;Some of us productivity nerds tried something new this week at the &lt;a href="http://recurse.com/"&gt;Recurse Center&lt;/a&gt;: group
+pomodoros!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Cherry tomatoes" src="https://jjst.github.io/images/pomodoro/tomatoes.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;I employ the &lt;a href="http://pomodorotechnique.com/"&gt;pomodoro technique&lt;/a&gt; pretty often, especially when I'm working on long
+tasks that I tend to procrastinate on (say, writing a blog post...). It's one of those productivity hacks that is so
+simple in principle that it sounds too good to be true. The idea is as follows (cf
+&lt;a href="https://en.wikipedia.org/wiki/Pomodoro_Technique"&gt;Wikipedia&lt;/a&gt;) : you use a timer to divide your work day into fixed, 25
+minutes chunks of time, called &lt;em&gt;pomodoros&lt;/em&gt;. Each pomodoro is separated by a 5 minute break. When anything distracting
+comes up during a pomodoro, you note it down somewhere and come back to it during the break.&lt;/p&gt;
+&lt;p&gt;This works because 25 minutes is not that big of a time commitment: when the urge to check Twitter, Slack or your phone
+comes up in the middle of a pomodoro, you just have to convince yourself to work a dozen minutes more before allowing
+yourself to give in to your social cravings (and by then, you might even find a better way to spend your five minutes
+break).&lt;/p&gt;
+&lt;p&gt;I've used pomodoros regularly at my previous full-time job, but it can be hard to apply the technique when working with
+other people. You often need to collaborate and pair with other developers who aren't necessarily using it. Also, it
+requires willpower to stay focused and wait for your break when the rest of your coworkers are having breaks at a
+different time. If you end up taking breaks with other people, it requires even more willpower to keep your pomodoro
+break to 5 minutes when the coffee break drags on.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tomato timer" src="https://jjst.github.io/images/pomodoro/tomato-timer.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Using the pomodoro technique in groups comes with some interesting perks. The added social pressure helps to keep you
+in check: seeing everyone "in the zone" at the same time during their pomodoros helps with concentration and
+motivation; and your partners can reprimand you if they see you spending time on the chat instead. Also, in a group,
+pomodoro breaks are fun again: everyone takes a break together, yay! This all makes it dramatically easier to use the
+method consistently.&lt;/p&gt;
+&lt;p&gt;So, how do you make this work in practice? &lt;/p&gt;
+&lt;p&gt;First, you need a group of &lt;strike&gt;guinea pigs&lt;/strike&gt; people who want to use the technique together. They don't have
+to be working on related things: in fact, in our group this week, all pomodoro-ists were working on different projects.
+Then, isolate yourselves from the distracting rest of the world. We use a dedicated room, but if that's not an option
+find yourself a quiet area in the office/space. For our timer, we placed a separate monitor running an online pomodoro
+app (there's a &lt;a href="https://www.google.com/search?q=online+pomodoro+timer"&gt;fair number of them available on google&lt;/a&gt;) on a
+dedicated shelf. This way everyone could constantly see how much time was left in the current cycle (of course, like
+with standard pomodoro, you could always do it low-tech and just use a standard kitchen timer).  Also, and this is the
+most crucial part: we implemented a reward system by having a huge bowl of M&amp;amp;M's everyone could pick from during their
+pomodoro breaks.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Setup" src="https://jjst.github.io/images/pomodoro/pomodoro-setup.jpg" /&gt;
+&lt;center&gt;&lt;small&gt;Our Pomodoro room setup&lt;/small&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;So if you've been using the pomodoro technique and know teammates or coworkers who do as well, I highly
+recommend trying out group pomodoros. And if you haven't used the pomodoro technique yet, give it a shot the next time
+you need to focus on a big task! As for me, the next thing I'd love to experiment with is using pomodoro for pair
+programming.&lt;/p&gt;</summary><category term="recurse center"></category><category term="productivity"></category><category term="pomodoro"></category></entry><entry><title>Building a photobooth in Python</title><link href="https://jjst.github.io/posts/2016/08/building-a-photobooth-in-python/" rel="alternate"></link><published>2016-08-06T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-08-06:posts/2016/08/building-a-photobooth-in-python/</id><summary type="html">&lt;p&gt;The &lt;a href="https://www.recurse.com/five-years"&gt;Recurse Center is 5 years old&lt;/a&gt;!  Faculty threw a small party in the RC space
 to celebrate the occasion, with current batch members and alumns welcome. Me and Philipp
 (&lt;a href="https://twitter.com/philj0st"&gt;@philj0st&lt;/a&gt;) marked the occasion by building a photobooth.
 Guests could use it to snap pics which then got posted to our internal chat system:&lt;/p&gt;
