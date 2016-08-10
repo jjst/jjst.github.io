@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Jérémie Jost</title><link href="http://jjst.github.io/" rel="alternate"></link><link href="http://jjst.github.io/feeds/atom.xml" rel="self"></link><id>http://jjst.github.io/</id><updated>2016-08-06T18:00:00+01:00</updated><entry><title>Building a photobooth in Python</title><link href="http://jjst.github.io/posts/2016/08/building-a-photobooth-in-python/" rel="alternate"></link><published>2016-08-06T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-08-06:posts/2016/08/building-a-photobooth-in-python/</id><summary type="html">&lt;p&gt;The &lt;a href="https://www.recurse.com/five-years"&gt;Recurse Center is 5 years old&lt;/a&gt;!  Faculty threw a small party in the RC space
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jérémie Jost</title><link href="https://jjst.github.io/" rel="alternate"></link><link href="https://jjst.github.io/feeds/atom.xml" rel="self"></link><id>https://jjst.github.io/</id><updated>2016-08-06T18:00:00+01:00</updated><entry><title>Building a photobooth in Python</title><link href="https://jjst.github.io/posts/2016/08/building-a-photobooth-in-python/" rel="alternate"></link><published>2016-08-06T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-08-06:posts/2016/08/building-a-photobooth-in-python/</id><summary type="html">&lt;p&gt;The &lt;a href="https://www.recurse.com/five-years"&gt;Recurse Center is 5 years old&lt;/a&gt;!  Faculty threw a small party in the RC space
 to celebrate the occasion, with current batch members and alumns welcome. Me and Philipp
 (&lt;a href="https://twitter.com/philj0st"&gt;@philj0st&lt;/a&gt;) marked the occasion by building a photobooth.
 Guests could use it to snap pics which then got posted to our internal chat system:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth pic" src="http://jjst.github.io/images/photobooth-pic.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Photobooth pic" src="https://jjst.github.io/images/photobooth-pic.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;This is the story of how we built it in one afternoon right before the party.&lt;/p&gt;
 &lt;h2&gt;12:00&lt;/h2&gt;
 &lt;p&gt;After learning of the existence of a photobooth at a previous Recurse Center event, and finding a spare HD camera in
@@ -39,7 +39,7 @@ earlier this week.&lt;/p&gt;
 &lt;p&gt;Philipp sets up the laptop and the webcam, and installs and tests
 &lt;a href="https://en.wikipedia.org/wiki/Cheese_(software)"&gt;Cheese&lt;/a&gt;, a Gnome application to take webcam pictures. We have fun
 trying out a bunch of the built-in funky effects and make funny faces in front of the webcam:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth funky effects" src="http://jjst.github.io/images/photobooth-funky.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Photobooth funky effects" src="https://jjst.github.io/images/photobooth-funky.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Meanwhile, Rachel finds the code for the old photobooth, but it's in Go (which I'm wildly unfamiliar with) and there
 seems to be a fair amount of hardcoded things which are going to make it tricky to adapt without a good grasp of the
 code.&lt;/p&gt;
@@ -109,9 +109,9 @@ that makes the trick and cut a hole the size of the arcade button using a utilit
 have to undo the soldering to be able to fit the button in. Re-soldering everything inside the shoebox turns out to be
 a lot more finicky, but Philipp manages. We wait for the solder to cool, then test everything again. Still works!  The
 dashboard ends up looking like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth dashboard" src="http://jjst.github.io/images/photobooth-dashboard.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Photobooth dashboard" src="https://jjst.github.io/images/photobooth-dashboard.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Here's what it looks like inside, where you can see the N64 controller:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth inside" src="http://jjst.github.io/images/photobooth-inside.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Photobooth inside" src="https://jjst.github.io/images/photobooth-inside.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;(Yes, we are using a hammer as a weight to stabilise the ensemble)&lt;/p&gt;
 &lt;h2&gt;19:00&lt;/h2&gt;
 &lt;p&gt;Time for the actual install! We save all environment variables we need for the zulip credentials and the settings to a
@@ -119,4 +119,4 @@ bash script, then shut down the laptop (remember, no battery!) to install it in 
 put the shoebox with the arcade button and the N64 controller on a shelf, then mount the HD webcam and the laptop above
 it. Plug everything together, set up the lighting, add some props, and voila! We're ready to take some pics, just in
 time for the party to start!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth setup" src="http://jjst.github.io/images/photobooth-setup.jpg" /&gt;&lt;/p&gt;</summary><category term="recurse center"></category><category term="hardware hacking"></category><category term="python"></category></entry></feed>
+&lt;p&gt;&lt;img alt="Photobooth setup" src="https://jjst.github.io/images/photobooth-setup.jpg" /&gt;&lt;/p&gt;</summary><category term="recurse center"></category><category term="hardware hacking"></category><category term="python"></category></entry></feed>
