@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'J\xe9r\xe9mie Jost'
-SITENAME = u'Jérémie Jost'
-SITEURL = ''
+SITENAME = u'Brain dump.'
+SITEURL = 'https://jjst.github.io'
 
 THEME = 'crowsfoot'
 
