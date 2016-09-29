@@ -39,7 +39,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
-# Publish articles as Draft unless they contain "Status: published" in their metadata
+# Publish articles as Draft unless they contain "Status: published" in
+# their metadata
 DEFAULT_METADATA = {
     'status': 'draft',
 }
@@ -51,7 +52,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 # Formatting for URLs
 
