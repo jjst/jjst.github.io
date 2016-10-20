@@ -1,5 +1,5 @@
 Title: RC return statement
-Date: 2016-08-06 18:00
+Date: 2016-10-20 18:00
 Tags: recurse center
 Summary: Looking back on the 3 months I spent in New York to become a better programmer
 
@@ -23,10 +23,10 @@ entirely up to you. You don't have to be an experienced programmer to attend. In
 college. Others had 5-10 years of industry experience. Some were people reconverting from law, finance
 or arts.
 
-I first heard of RC in an Hacker News headline, 18 months or so ago (RC was still known as [Hacker
-School](https://www.recurse.com/blog/77-hacker-school-is-now-the-recurse-center) back then). Though the concept
-immediately appealed to me (3 months to finally finish all of the projects I'm always putting off, right?), it took a year
-(and a complete burn out) for me to finally apply. Why so long? A mix of [brain
+I first heard of the program in an Hacker News headline, 18 months or so ago (the Recurse Center was still known as
+[Hacker School](https://www.recurse.com/blog/77-hacker-school-is-now-the-recurse-center) back then). Though the concept
+immediately appealed to me (3 months to finally finish all of the projects I'm always putting off, right?), it took a
+year (and a complete burn out) for me to finally apply. Why so long? A mix of [brain
 crack](https://www.youtube.com/watch?v=0sHCQWjTrJ8) and [impostor
 syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome). The latter isn't uncommon among Recursers—it even gets
 mentioned in RC's [user manual](https://www.recurse.com/manual#sec-environment).
@@ -67,6 +67,19 @@ So, when people ask me what I did at the Recurse Center, I can point them to tho
 something gratifying about having built some tangible things I can show, I don't want to reduce my experience to just
 those. Doing so would not only diminish but also run counter to some of the lessons I learnt at RC.
 
+I learnt there's tremendous value in reinventing the wheel. That not everything you build needs to have a purpose other
+than "I thought this would be fun to do". Building your own Bittorent client, or web server, or OS, or database, might
+be the best way to really understand how those things work.
+
+I also learnt I have things to teach, and that I love doing so. I realised that past a stage, there's no fixed
+hierarchy of teaching: everyone has things to teach and things to learn. Admittedly, this is especially true in an
+environment such as RC, where there aren't really teachers or students, and where you learn from your peers.
+
+I learnt that there are just too many things I want to learn, and I can't pursue them all, even when I can dedicate
+100% of my time to do so. This doesn't mean I can't enjoy learning the things I want to. It does mean I don't have to
+feel guilty about not spending my time learning all the things I'd like to. I shouldn't punish myself for being overly
+curious.
+
 I learnt that programmers come in all shapes and forms. Some of us like to understand how computers work in their
 inner details, others like higher-level abstractions. Some of us like code as a craft, others like to use code to
 get shit done. Some are great at building things, others are great at teaching. And that's awesome. Because there's a
@@ -84,15 +97,3 @@ thoughts to the entire world. Or if you don't feel like coding on your free time
 struggling to become a better programmer, because it's though. Or even if you *don't want* to become a better
 programmer and want to pursue other passions.  That's perfectly fine. Do whatever makes you happy.
 
-I also learnt I have things to teach, and that I loved doing so. I realised that past a stage, there's no fixed
-hierarchy of teaching: everyone has things to teach and things to learn. Admittedly, this is especially true in an
-environment such as RC, where there aren't really teachers or students, and where you learn from your peers.
-
-I learnt that there are just too many things I want to learn, and I can't pursue them all, even when I can dedicate
-100% of my time to do so. This doesn't mean I can't enjoy learning the things I want to. It does mean I don't have to
-feel guilty about not spending my time learning all the things I'd like to. I shouldn't punish myself for being overly
-curious.
-
-I learnt there's tremendous value in reinventing the wheel. That not everything you build needs to have a purpose other
-than "I thought this would be fun to do". Building your own Bittorent client, or web server, or OS, or database, might
-be the best way to really understand how those things work.
