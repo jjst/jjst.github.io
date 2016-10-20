@@ -63,28 +63,37 @@ my batch, I gave a workshop on building web applications and games in Elm, a lan
 <!-- and then... attend workshops... organise dojo... start turtlewar... wrote elmtimate tic-tac-toe... paired on
 lights out... built .loverc... ended up giving a workshop on Elm -->
 
-So, when people ask me what I did at the Recurse Center, I can point them to those things. I have stuff to show. But
-while there's something gratifying about having built some tangible things to show, I don't want to reduce my
-experience to just those. Doing so would not only diminish but also run counter to some of the lessons I learnt at
-RC.
+So, when people ask me what I did at the Recurse Center, I can point them to those projects. But while there's
+something gratifying about having built some tangible things I can show, I don't want to reduce my experience to just
+those. Doing so would not only diminish but also run counter to some of the lessons I learnt at RC.
 
 I learnt that programmers come in all shapes and forms. Some of us like to understand how computers work in their
 inner details, others like higher-level abstractions. Some of us like code as a craft, others like to use code to
 get shit done. Some are great at building things, others are great at teaching. And that's awesome. Because there's a
 need for all of us. And none of us can be all of those things at the same time. We all have our pockets of knowledge,
-with gaps here and there. That might sound obvious, but it's so easy to idealise and extrapolate from the few
-famous programmers who seem to know everything and get so many things done, and compare yourself to them. What's
-invisible is all the things they fail at or don't know about, like any of us, or the times they're frustrated and
-want to give up or don't feel like programming anymore. This also means there's no fixed hierarchy of teaching:
-everyone has things to teach and things to learn. This also means don't guilt yourself into not having a blog if you're
-not the kind of person who shares their thoughts to the entire world. Don't even guilt yourself if you're struggling to
-become a better programmer, or even if you don't want to. That's perfectly fine. Do whatever makes you happy.
+with gaps here and there.
 
-I learnt that I can't learn everything I want, even when I can spend 100% of my time doing so, and that I'd better
-get used to that fact. This doesn't mean I can't enjoy learning the things I want to. It does mean I don't
-have to feel guilty about not spending my time learning all the things I'd like to.
+This might sound obvious, but it's so easy to idealise and extrapolate from the few famous programmers who seem to know
+everything and get so many things done, and compare yourself to them. What's invisible is all the things they fail at
+or don't know about, like any of us, or the times they're frustrated and want to give up or don't feel like programming
+anymore.
+
+So don't guilt yourself if you're not the best at systems programming. Or if you don't know FP or Haskell when all the
+cool kids are talking about it. Or if you don't have a blog if you're not the kind of person who wants to share their
+thoughts to the entire world. Don't guilt yourself if you don't feel like coding on your free time. Don't guilt
+yourself if you're struggling to become a better programmer, because it's though. Don't even guilt yourself if you
+don't want to become a better programmer and want to pursue other passions.  That's perfectly fine. Do whatever makes
+you happy.
+
+I also learnt I have things to teach, and that I loved doing so. I realised that past a stage, there's no fixed
+hierarchy of teaching: everyone has things to teach and things to learn. Admittedly, this is especially true in an
+environment such as RC, where there aren't really teachers or students, and where you learn from your peers.
+
+I learnt that there are just too many things I want to learn, and I can't pursue them all, even when I can dedicate
+100% of my time to do so. This doesn't mean I can't enjoy learning the things I want to. It does mean I don't have to
+feel guilty about not spending my time learning all the things I'd like to. I shouldn't punish myself for being overly
+curious.
 
 I learnt there's tremendous value in reinventing the wheel. That not everything you build needs to have a purpose other
 than "I thought this would be fun to do". Building your own Bittorent client, or web server, or OS, or database, might
 be the best way to really understand how those things work.
-
