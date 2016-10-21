@@ -11,9 +11,10 @@ Deeply connected to why I was doing it.
 
 There's these one-day hackathons I go to once in a while. They're called BLT for Build, Learn, Teach. They're not like
 traditional hackathons with a theme or specific things to build. People come in in the morning and we have a group
-meeting where everyone shares what they want to work on, then we form groups and pair or work on our own stuff.  At the
-end of the day, people share what they have been working on. Sometimes they built something cool, sometimes they just
-spent their day talking random programming stuff or learning about one thing or the other, and that's cool as well.
+meeting where everyone shares what they're interested in or want to work on, then we form groups and pair or work on
+our own stuff.  At the end of the day, people share what they did. Sometimes they built something cool, sometimes they
+just spent their day talking random programming stuff or learning about one thing or the other, and that's cool as
+well.
 
 When I applied to the [Recurse Center](https://www.recurse.com/), this is how I pictured it. The same kind of
 experience, but over 3 months instead of a single day.
@@ -49,9 +50,8 @@ programmer*.
 For me, the Recurse Center meant having the time and freedom to code for myself, with no constraints whatsoever. But
 also the freedom to not code when I didn't want to.
 
-This meant I spent pretty much my entire first week helping people and
-[pairing](https://en.wikipedia.org/wiki/Pair_programming) on their own projects or various
-Hackerrank or Project Euler problems (people pair a lot at RC).
+This meant I spent most of my first week helping people and [pairing](https://en.wikipedia.org/wiki/Pair_programming)
+on their own projects, or on Hackerrank or Project Euler problems (people pair a lot at RC).
 
 And then I attended some workshops, and I got some new project ideas. I started a project combining some Javascript
 rendering with a Flask backend (I've used Python, but had never built anything with Flask before) to generate random
@@ -97,3 +97,10 @@ thoughts to the entire world. Or if you don't feel like coding on your free time
 struggling to become a better programmer, because it's though. Or even if you *don't want* to become a better
 programmer and want to pursue other passions.  That's perfectly fine. Do whatever makes you happy.
 
+Most of this I was able to learn and reflect on because I was surrounded by people with the same level as me. If
+there's one thing I underestimated, it's the impact of being surrounded by smart, curious, caring people. The Recurse
+Center is, first and foremost, a social experience. This is made possible by a set of social rules (they're called a
+"patch" on top of normal society), which evolved organically over time. And by niceness being a (or maybe the first)
+selection criteria for candidates. The difference this makes, compared to the rest of the tech community, is
+significant. Negativity doesn't exist. People are always encouraging and enthusiastic about everything. A lack of
+knowledge is seen as an opportunity to learn, never as a weakness.
