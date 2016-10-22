@@ -1,5 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Brain dump.</title><link href="https://jjst.github.io/" rel="alternate"></link><link href="https://jjst.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://jjst.github.io/</id><updated>2016-08-10T18:00:00+01:00</updated><entry><title>Group pomodoros are awesome</title><link href="https://jjst.github.io/posts/2016/08/group-pomodoros-are-awesome/" rel="alternate"></link><published>2016-08-10T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-08-10:posts/2016/08/group-pomodoros-are-awesome/</id><summary type="html">&lt;p&gt;Some of us productivity nerds tried something new this week at the &lt;a href="http://recurse.com/"&gt;Recurse Center&lt;/a&gt;: group
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Brain dump.</title><link href="https://jjst.github.io/" rel="alternate"></link><link href="https://jjst.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://jjst.github.io/</id><updated>2016-10-20T18:00:00+01:00</updated><entry><title>RC return statement</title><link href="https://jjst.github.io/posts/2016/10/rc-return-statement/" rel="alternate"></link><published>2016-10-20T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-10-20:posts/2016/10/rc-return-statement/</id><summary type="html">&lt;p&gt;There's these one-day hackathons I go to once in a while. They're called BLT for Build, Learn, Teach. They're not like
+traditional hackathons with a theme or specific things to build. People come in in the morning and we have a group
+meeting where everyone shares what they're interested in or want to work on, then we form groups and pair or work on
+our own stuff.  At the end of the day, people share what they did. Sometimes they built something cool, sometimes they
+just spent their day talking random programming stuff or learning about one thing or the other, and that's cool as
+well.&lt;/p&gt;
+&lt;p&gt;When I applied to the &lt;a href="https://www.recurse.com/"&gt;Recurse Center&lt;/a&gt;, this is how I pictured it. The same kind of
+experience, but over 3 months instead of a single day.&lt;/p&gt;
+&lt;p&gt;The premise of RC is pretty simple: you devote 3 months to becoming a better programmer—whatever that entails is
+entirely up to you. You don't have to be an experienced programmer to attend. In my batch, some people hadn't finished
+college. Others had 5-10 years of industry experience. Some were people reconverting from law, finance
+or arts.&lt;/p&gt;
+&lt;p&gt;I first heard of the program in an Hacker News headline, 18 months or so ago (the Recurse Center was still known as
+&lt;a href="https://www.recurse.com/blog/77-hacker-school-is-now-the-recurse-center"&gt;Hacker School&lt;/a&gt; back then). Though the concept
+immediately appealed to me (3 months to finally finish all of the projects I'm always putting off, right?), it took a
+year (and a complete burn out) for me to finally apply. Why so long? A mix of &lt;a href="https://www.youtube.com/watch?v=0sHCQWjTrJ8"&gt;brain
+crack&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Impostor_syndrome"&gt;impostor
+syndrome&lt;/a&gt;. The latter isn't uncommon among Recursers—it even gets
+mentioned in RC's &lt;a href="https://www.recurse.com/manual#sec-environment"&gt;user manual&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During the application process, I talked about spending my batch contributing to open source software, and geeking
+around with Haskell and Rust or whatnot. Turns out this was superceded by (or maybe just related to?) a bigger goal,
+unbeknownst to me: self-healing.&lt;/p&gt;
+&lt;p&gt;I've started programming when I was in high school (coding games in TI-BASIC on my calculator) and when it came time to
+choose a career, I thought that if I was going to spend 8 hours a day getting paid to do something, I might as well be
+enjoying it. Makes sense, right? Except it turns out when you're not careful, full-time jobs have a tendency to suck
+the fun out of anything, even what you thought was your passion.&lt;/p&gt;
+&lt;p&gt;So here I was: after finally applying, and being accepted into a program dedicated to making myself a &lt;em&gt;better
+programmer&lt;/em&gt;, one of the first questions I had to answer when joining RC was whether I still enjoyed &lt;em&gt;being a
+programmer&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;(Spoiler alert: I do)&lt;/p&gt;
+&lt;p&gt;For me, the Recurse Center meant having the time and freedom to code for myself, with no constraints whatsoever. But
+also (after 5 years as a full-time engineer) the freedom to not code when I didn't want to.&lt;/p&gt;
+&lt;p&gt;This meant I spent most of my first week helping people and &lt;a href="https://en.wikipedia.org/wiki/Pair_programming"&gt;pairing&lt;/a&gt;
+on their own projects, or on Hackerrank or Project Euler problems (people pair a lot at RC). I didn't write code on my
+own, and it felt good.&lt;/p&gt;
+&lt;p&gt;And then I attended some workshops, and I got some ideas for things I could build. I started a silly project combining
+some Javascript rendering with a Flask backend to generate random drawings using a genetic algorithm. I started
+organising weekly code dojos, where people paired on katas using any language they felt like trying. I got curious
+about &lt;a href="http://elm-lang.org/"&gt;Elm&lt;/a&gt;, and ended up building a &lt;a href="https://github.com/jjst/elmtimate-tictactoe"&gt;game&lt;/a&gt; with it.
+And then paired on &lt;a href="https://github.com/mariellefoster/lightsout"&gt;another one&lt;/a&gt;. And yet &lt;a href="https://github.com/jjst/dotloverc"&gt;another
+one&lt;/a&gt;. By the end of my batch, I gave a workshop on building web applications and
+games in Elm, a language I barely knew before.&lt;/p&gt;
+&lt;p&gt;So, when people ask me what I did at the Recurse Center, I can point them to those projects. But while there's
+something gratifying about having built some tangible things I can show, I don't want to reduce my experience to just
+those. Doing so would not only diminish but also run counter to some of the lessons I learnt at RC.&lt;/p&gt;
+&lt;p&gt;I learnt there's tremendous value in reinventing the wheel. That not everything you build needs to have a purpose other
+than "I thought this would be fun to do". Building your own Bittorent client, or web server, or OS, or database, might
+be the best way to really understand how those things work.&lt;/p&gt;
+&lt;p&gt;I also learnt I have things to teach, and that I love doing so. I realised that past a stage, there's no fixed
+hierarchy of teaching: everyone has things to teach and things to learn. Admittedly, this is especially true in an
+environment such as RC, where there aren't really teachers or students, and where you learn from your peers.&lt;/p&gt;
+&lt;p&gt;I learnt that there are just too many things I want to learn, and I can't pursue them all, even when I can dedicate
+100% of my time to do so. This doesn't mean I can't enjoy learning the things I want to. It does mean I don't have to
+feel guilty about not spending my time learning all the things I'd like to. I shouldn't punish myself for being overly
+curious.&lt;/p&gt;
+&lt;p&gt;Most importantly I learnt that programmers come in all shapes and forms. Some of us like to understand how computers
+work in their inner details, others like higher-level abstractions. Some of us like code as a craft, others like to use
+code to get shit done. Some are great at building things, others are great at teaching. And that's awesome. Because
+there's a need for all of us. And none of us can be all of those things at the same time. We all have out strengths and
+weaknesses, and pockets of knowledge, with gaps here and there.&lt;/p&gt;
+&lt;p&gt;This might sound obvious, but it's so easy to idealise and extrapolate from the few famous programmers who seem to know
+everything and get so many things done, and compare yourself to them. What's invisible is all the things they fail at
+or don't know about, like any of us, or the times they're frustrated and want to give up or don't feel like programming
+anymore.&lt;/p&gt;
+&lt;p&gt;So don't guilt yourself if you're not the best at systems programming, data structures, or if you don't know FP or
+Haskell when all the cool kids are talking about it. Or if you don't have a blog when you're not the kind of person who
+wants to share their thoughts to the entire world. Or if you don't feel like coding on your free time. Don't guilt
+yourself if you're struggling to become a better programmer, because it's though. Or even if you &lt;em&gt;don't want&lt;/em&gt; to become
+a better programmer and want to pursue other passions.  That's perfectly fine. Do whatever makes you happy.&lt;/p&gt;
+&lt;p&gt;(I'm writing all of those lessons down because I know I'll forget about them from time to time)&lt;/p&gt;
+&lt;p&gt;If there's one thing I underestimated, it's how much the Recurse Center was (at least for me) a social experience.&lt;/p&gt;
+&lt;p&gt;My best moments were all spent sharing my passion for coding with other people. All the pair programming sessions. The
+workshops spontaneously organised by Recursers. The time we spent &lt;a href="https://jjst.github.io/posts/2016/08/building-a-photobooth-in-python/"&gt;hacking
+hardware&lt;/a&gt; or &lt;a href="https://jjst.github.io/posts/2016/08/group-pomodoros-are-awesome/"&gt;organising group pomodoros&lt;/a&gt;.  Or that
+time Justin organised &lt;em&gt;non-technical&lt;/em&gt; lightning talks were everyone could present on a topic they were passionate about
+as long as it &lt;em&gt;wasn't&lt;/em&gt; programming—and people talked about bird watching, genetics, how to cook the perfect tortilla,
+typography, or even how to flirt!&lt;/p&gt;
+&lt;p&gt;Being immersed in an environment where everyone around you is having fun building and learning things is an incredible
+motivational boost. On top of that, RC is one of the few places in the tech community where negativity and toxicity are
+absent. RCers are always encouraging and enthusiastic about what you're doing, and showing genuine interest. Mistakes
+are seen not as flaws but as opportunities to learn and grow. People see the best version of yourself, and in return,
+you want to be that person.&lt;/p&gt;
+&lt;p&gt;So yeah. Those three months have been amazing. I've built friendships. I've learnt a ton, about programming, about
+other things, about myself.  So long Recurse Center, and see you soon. Never graduate!&lt;/p&gt;</summary><category term="recurse center"></category></entry><entry><title>Group pomodoros are awesome</title><link href="https://jjst.github.io/posts/2016/08/group-pomodoros-are-awesome/" rel="alternate"></link><published>2016-08-10T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-08-10:posts/2016/08/group-pomodoros-are-awesome/</id><summary type="html">&lt;p&gt;Some of us productivity nerds tried something new this week at the &lt;a href="http://recurse.com/"&gt;Recurse Center&lt;/a&gt;: group
 pomodoros!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Cherry tomatoes" src="https://jjst.github.io/images/pomodoro/tomatoes.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;I employ the &lt;a href="http://pomodorotechnique.com/"&gt;pomodoro technique&lt;/a&gt; pretty often, especially when I'm working on long
