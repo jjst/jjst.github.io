@@ -2,6 +2,7 @@ Title: RC return statement
 Date: 2016-10-20 18:00
 Tags: recurse center
 Summary: Looking back on the 3 months I spent in New York to become a better programmer
+Status: published
 
 There's these one-day hackathons I go to once in a while. They're called BLT for Build, Learn, Teach. They're not like
 traditional hackathons with a theme or specific things to build. People come in in the morning and we have a group
@@ -45,17 +46,16 @@ For me, the Recurse Center meant having the time and freedom to code for myself,
 also (after 5 years as a full-time engineer) the freedom to not code when I didn't want to.
 
 This meant I spent most of my first week helping people and [pairing](https://en.wikipedia.org/wiki/Pair_programming)
-on their own projects, or on Hackerrank or Project Euler problems (people pair a lot at RC).
+on their own projects, or on Hackerrank or Project Euler problems (people pair a lot at RC). I didn't write code on my
+own, and it felt good.
 
-And then I attended some workshops, and I got some new project ideas. I started a project combining some Javascript
-rendering with a Flask backend (I've used Python, but had never built anything with Flask before) to generate random
-drawings using a genetic algorithm. I started organising weekly code dojos, where people paired on katas using any
-language they felt like trying. I got curious about [Elm](http://elm-lang.org/), and ended up building a
-[game](https://github.com/jjst/elmtimate-tictactoe) with it. And then paired on [another
-one](https://github.com/mariellefoster/lightsout). And yet [another one](https://github.com/jjst/dotloverc). By the end of
-my batch, I gave a workshop on building web applications and games in Elm, a language I barely knew before.
-<!-- and then... attend workshops... organise dojo... start turtlewar... wrote elmtimate tic-tac-toe... paired on
-lights out... built .loverc... ended up giving a workshop on Elm -->
+And then I attended some workshops, and I got some ideas for things I could build. I started a silly project combining
+some Javascript rendering with a Flask backend to generate random drawings using a genetic algorithm. I started
+organising weekly code dojos, where people paired on katas using any language they felt like trying. I got curious
+about [Elm](http://elm-lang.org/), and ended up building a [game](https://github.com/jjst/elmtimate-tictactoe) with it.
+And then paired on [another one](https://github.com/mariellefoster/lightsout). And yet [another
+one](https://github.com/jjst/dotloverc). By the end of my batch, I gave a workshop on building web applications and
+games in Elm, a language I barely knew before.
 
 So, when people ask me what I did at the Recurse Center, I can point them to those projects. But while there's
 something gratifying about having built some tangible things I can show, I don't want to reduce my experience to just
@@ -100,7 +100,7 @@ workshops spontaneously organised by Recursers. The time we spent [hacking
 hardware]({filename}/building-a-photobooth.md) or [organising group pomodoros]({filename}/group-pomodoros.md).  Or that
 time Justin organised *non-technical* lightning talks were everyone could present on a topic they were passionate about
 as long as it *wasn't* programming—and people talked about bird watching, genetics, how to cook the perfect tortilla,
-typography, or even how to flirt.
+typography, or even how to flirt!
 
 Being immersed in an environment where everyone around you is having fun building and learning things is an incredible
 motivational boost. On top of that, RC is one of the few places in the tech community where negativity and toxicity are
@@ -108,5 +108,5 @@ absent. RCers are always encouraging and enthusiastic about what you're doing, a
 are seen not as flaws but as opportunities to learn and grow. People see the best version of yourself, and in return,
 you want to be that person.
 
-So yeah. Those three months have been amazing. I've learnt a ton about programming, life, and myself. And I've made
-friends around the world. So long Recurse Center, and see you soon. Never graduate!
+So yeah. Those three months have been amazing. I've built friendships. I've learnt a ton, about programming, about
+other things, about myself.  So long Recurse Center, and see you soon. Never graduate!
