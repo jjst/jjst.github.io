@@ -3,12 +3,6 @@ Date: 2016-10-20 18:00
 Tags: recurse center
 Summary: Looking back on the 3 months I spent in New York to become a better programmer
 
-<!--
-What is RC
-But more importantly: what was it FOR ME.
-Deeply connected to why I was doing it.
--->
-
 There's these one-day hackathons I go to once in a while. They're called BLT for Build, Learn, Teach. They're not like
 traditional hackathons with a theme or specific things to build. People come in in the morning and we have a group
 meeting where everyone shares what they're interested in or want to work on, then we form groups and pair or work on
@@ -39,7 +33,7 @@ unbeknownst to me: self-healing.
 I've started programming when I was in high school (coding games in TI-BASIC on my calculator) and when it came time to
 choose a career, I thought that if I was going to spend 8 hours a day getting paid to do something, I might as well be
 enjoying it. Makes sense, right? Except it turns out when you're not careful, full-time jobs have a tendency to suck
-the fun out of anything, even what you thought were your passions.
+the fun out of anything, even what you thought was your passion.
 
 So here I was: after finally applying, and being accepted into a program dedicated to making myself a *better
 programmer*, one of the first questions I had to answer when joining RC was whether I still enjoyed *being a
@@ -48,7 +42,7 @@ programmer*.
 (Spoiler alert: I do)
 
 For me, the Recurse Center meant having the time and freedom to code for myself, with no constraints whatsoever. But
-also the freedom to not code when I didn't want to.
+also (after 5 years as a full-time engineer) the freedom to not code when I didn't want to.
 
 This meant I spent most of my first week helping people and [pairing](https://en.wikipedia.org/wiki/Pair_programming)
 on their own projects, or on Hackerrank or Project Euler problems (people pair a lot at RC).
@@ -80,10 +74,10 @@ I learnt that there are just too many things I want to learn, and I can't pursue
 feel guilty about not spending my time learning all the things I'd like to. I shouldn't punish myself for being overly
 curious.
 
-I learnt that programmers come in all shapes and forms. Some of us like to understand how computers work in their
-inner details, others like higher-level abstractions. Some of us like code as a craft, others like to use code to
-get shit done. Some are great at building things, others are great at teaching. And that's awesome. Because there's a
-need for all of us. And none of us can be all of those things at the same time. We all have out strengths and
+Most importantly I learnt that programmers come in all shapes and forms. Some of us like to understand how computers
+work in their inner details, others like higher-level abstractions. Some of us like code as a craft, others like to use
+code to get shit done. Some are great at building things, others are great at teaching. And that's awesome. Because
+there's a need for all of us. And none of us can be all of those things at the same time. We all have out strengths and
 weaknesses, and pockets of knowledge, with gaps here and there.
 
 This might sound obvious, but it's so easy to idealise and extrapolate from the few famous programmers who seem to know
@@ -91,22 +85,28 @@ everything and get so many things done, and compare yourself to them. What's inv
 or don't know about, like any of us, or the times they're frustrated and want to give up or don't feel like programming
 anymore.
 
-So don't guilt yourself if you're not the best at systems programming, or if you don't know FP or Haskell when all the
-cool kids are talking about it. Or if you don't have a blog if you're not the kind of person who wants to share their
-thoughts to the entire world. Or if you don't feel like coding on your free time. Don't guilt yourself if you're
-struggling to become a better programmer, because it's though. Or even if you *don't want* to become a better
-programmer and want to pursue other passions.  That's perfectly fine. Do whatever makes you happy.
+So don't guilt yourself if you're not the best at systems programming, data structures, or if you don't know FP or
+Haskell when all the cool kids are talking about it. Or if you don't have a blog when you're not the kind of person who
+wants to share their thoughts to the entire world. Or if you don't feel like coding on your free time. Don't guilt
+yourself if you're struggling to become a better programmer, because it's though. Or even if you *don't want* to become
+a better programmer and want to pursue other passions.  That's perfectly fine. Do whatever makes you happy.
 
-(I'm writing all of those lessons down because I know I'll forget from time to time)
+(I'm writing all of those lessons down because I know I'll forget about them from time to time)
 
 If there's one thing I underestimated, it's how much the Recurse Center was (at least for me) a social experience.
+
+My best moments were all spent sharing my passion for coding with other people. All the pair programming sessions. The
+workshops spontaneously organised by Recursers. The time we spent [hacking
+hardware]({filename}/building-a-photobooth.md) or [organising group pomodoros]({filename}/group-pomodoros.md).  Or that
+time Justin organised *non-technical* lightning talks were everyone could present on a topic they were passionate about
+as long as it *wasn't* programming—and people talked about bird watching, genetics, how to cook the perfect tortilla,
+typography, or even how to flirt.
+
 Being immersed in an environment where everyone around you is having fun building and learning things is an incredible
 motivational boost. On top of that, RC is one of the few places in the tech community where negativity and toxicity are
 absent. RCers are always encouraging and enthusiastic about what you're doing, and showing genuine interest. Mistakes
 are seen not as flaws but as opportunities to learn and grow. People see the best version of yourself, and in return,
 you want to be that person.
 
-
-So long Recurse Center, and see you soon.
-
-`:wq`
+So yeah. Those three months have been amazing. I've learnt a ton about programming, life, and myself. And I've made
+friends around the world. So long Recurse Center, and see you soon. Never graduate!
