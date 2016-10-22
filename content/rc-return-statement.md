@@ -88,7 +88,7 @@ anymore.
 So don't guilt yourself if you're not the best at systems programming, data structures, or if you don't know FP or
 Haskell when all the cool kids are talking about it. Or if you don't have a blog when you're not the kind of person who
 wants to share their thoughts to the entire world. Or if you don't feel like coding on your free time. Don't guilt
-yourself if you're struggling to become a better programmer, because it's though. Or even if you *don't want* to become
+yourself if you're struggling to become a better programmer, because it's tough. Or even if you *don't want* to become
 a better programmer and want to pursue other passions.  That's perfectly fine. Do whatever makes you happy.
 
 (I'm writing all of those lessons down because I know I'll forget about them from time to time)
