@@ -97,10 +97,16 @@ thoughts to the entire world. Or if you don't feel like coding on your free time
 struggling to become a better programmer, because it's though. Or even if you *don't want* to become a better
 programmer and want to pursue other passions.  That's perfectly fine. Do whatever makes you happy.
 
-Most of this I was able to learn and reflect on because I was surrounded by people with the same level as me. If
-there's one thing I underestimated, it's the impact of being surrounded by smart, curious, caring people. The Recurse
-Center is, first and foremost, a social experience. This is made possible by a set of social rules (they're called a
-"patch" on top of normal society), which evolved organically over time. And by niceness being a (or maybe the first)
-selection criteria for candidates. The difference this makes, compared to the rest of the tech community, is
-significant. Negativity doesn't exist. People are always encouraging and enthusiastic about everything. A lack of
-knowledge is seen as an opportunity to learn, never as a weakness.
+(I'm writing all of those lessons down because I know I'll forget from time to time)
+
+If there's one thing I underestimated, it's how much the Recurse Center was (at least for me) a social experience.
+Being immersed in an environment where everyone around you is having fun building and learning things is an incredible
+motivational boost. On top of that, RC is one of the few places in the tech community where negativity and toxicity are
+absent. RCers are always encouraging and enthusiastic about what you're doing, and showing genuine interest. Mistakes
+are seen not as flaws but as opportunities to learn and grow. People see the best version of yourself, and in return,
+you want to be that person.
+
+
+So long Recurse Center, and see you soon.
+
+`:wq`
