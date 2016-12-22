@@ -9,7 +9,7 @@ to celebrate the occasion, with current batch members and alumns welcome. Me and
 ([@philj0st](https://twitter.com/philj0st)) marked the occasion by building a photobooth.
 Guests could use it to snap pics which then got posted to our internal chat system:
 
-![Photobooth pic]({filename}/images/photobooth-pic.jpg)
+![Photobooth pic]({filename}/images/photobooth/group-pic.jpg)
 
 This is the story of how we built it in one afternoon right before the party.
 
@@ -63,7 +63,7 @@ Philipp sets up the laptop and the webcam, and installs and tests
 [Cheese](https://en.wikipedia.org/wiki/Cheese_(software)), a Gnome application to take webcam pictures. We have fun
 trying out a bunch of the built-in funky effects and make funny faces in front of the webcam:
 
-![Photobooth funky effects]({filename}/images/photobooth-funky.jpg)
+![Photobooth funky effects]({filename}/images/photobooth/funky.jpg)
 
 Meanwhile, Rachel finds the code for the old photobooth, but it's in Go (which I'm wildly unfamiliar with) and there
 seems to be a fair amount of hardcoded things which are going to make it tricky to adapt without a good grasp of the
@@ -159,11 +159,11 @@ have to undo the soldering to be able to fit the button in. Re-soldering everyth
 a lot more finicky, but Philipp manages. We wait for the solder to cool, then test everything again. Still works!  The
 dashboard ends up looking like this:
 
-![Photobooth dashboard]({filename}/images/photobooth-dashboard.jpg)
+![Photobooth dashboard]({filename}/images/photobooth/dashboard.jpg)
 
 Here's what it looks like inside, where you can see the N64 controller:
 
-![Photobooth inside]({filename}/images/photobooth-inside.jpg)
+![Photobooth inside]({filename}/images/photobooth/inside.jpg)
 
 (Yes, we are using a hammer as a weight to stabilise the ensemble)
 
@@ -176,5 +176,5 @@ put the shoebox with the arcade button and the N64 controller on a shelf, then m
 it. Plug everything together, set up the lighting, add some props, and voila! We're ready to take some pics, just in
 time for the party to start!
 
-![Photobooth setup]({filename}/images/photobooth-setup.jpg)
+![Photobooth setup]({filename}/images/photobooth/setup.jpg)
 
