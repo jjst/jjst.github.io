@@ -6,6 +6,7 @@ Summary: Notes from "Gettings Things Done"
 I've been wanting to read *Getting Things Done*, by David Allen, for a very long time. Getting to the end of it was,
 quite ironically, quite hard to get done!
 
+
 - Boy was this a tedious read!
 - It's ok to fall behind on stuff
 - GTD is the basis (skeleton) of a system. It's no silver bullet. There's no silver bullet!
