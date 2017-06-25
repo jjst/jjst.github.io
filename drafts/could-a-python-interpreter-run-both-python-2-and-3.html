@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>Could a Python interpreter run both Python 2 and 3?</title>
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css' />
+      <link href='//fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'/>
+      <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700' rel='stylesheet' type='text/css'/>
+      <link rel="stylesheet" type="text/css" href="https://jjst.eu/theme/css/icons.css"/>
+      <link rel="stylesheet" type="text/css" href="https://jjst.eu/theme/css/styles.css"/>
+      <meta charset="utf-8" />
+        <link href="/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="Brain dump. Atom Feed" />
+  </head>
+
+  <body id="index">
+    <!-- header -->
+    <header class="siteheader">
+      <!-- site image -->
+
+      <div class = "sitebanner">
+        <h1><a class="sitetitle nodec" href="https://jjst.eu">Brain dump.</a></h1>
+        <h3 class ="sitesubtitle"></h3>
+        <!-- nav -->
+        <nav class="menu">
+          <ul>
+            <!-- menu items-->
+            <!--pages-->
+            <!-- services icons -->
+              <li><a class="nodec icon-mail-alt" href="mailto:jeremiejost@gmail.com"></a></li>
+              <li><a class="nodec icon-github" href="https://github.com/jjst/"></a></li>
+              <li><a class="nodec icon-stackoverflow" href="http://stackoverflow.com/users/887422/jjst"></a></li>
+              <li><a class="nodec icon-twitter" href="https://twitter.com/j_jost"></a></li>
+              <li><a class="nodec icon-rss" href="/feeds/atom.xml"></a></li>
+          </ul>
+        </nav>
+      </div> <!-- sitebanner -->
+    </header>
+
+    <!-- content -->
+
+<section class="content">
+
+  <h3 class="posttitle">
+    <a class="nodec" href="/drafts/could-a-python-interpreter-run-both-python-2-and-3.html" rel="bookmark" title="Permalink to Could a Python interpreter run both Python 2 and 3?">
+      Could a Python interpreter run both Python 2 and 3?
+    </a>
+  </h3>
+
+  <div class="postinfo">
+    <p class="published" title="2016-12-01T18:00:00+00:00">
+      Thu 01 December 2016
+    </p>
+
+  </div><!-- .postinfo -->
+
+  <div class="article">
+    <p>Zed Shaw, the author of Learn Python the Hard Way, one of the most successful resources to teach Python to beginners,
+<a href="https://learnpythonthehardway.org/book/nopython3.html">went on a rant on Python 3</a> and why it supposedly is a
+terrible language and beginners should steer away from it. Some of his arguments are dubious and borderline paranoid,
+and <a href="https://eev.ee/blog/2016/11/23/a-rebuttal-for-python-3/">other people have done a decent job at debunking them</a>.
+One of his points piqued my curiosity, though: he argues that, had the Python 3 VM been designed "properly", it would
+have been able to run both Python 2 and Python 3 code. He says<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>:</p>
+<blockquote>
+<ul>
+<li>Python 3 uses a Virtual Machine (VM) just like Python 2 did.</li>
+<li>The original design of Python 3 could have also run Python 2 in this same VM. They controlled both languages, and could make it work. They chose not to do this, and instead tell you to manually translate.</li>
+<li>F#/C# and JRuby/Java are good examples of doing this. The former, when you have control over both languages. The latter, when you don't.</li>
+<li>Successive versions of Java are another example of doing this, and may be closer to Python 2/3 integration.</li>
+<li>Choosing not to support both Python 2 and Python 3 in the same VM makes the transition cost off Python 2 much higher than it needs to be. Rather than support a smooth transition, the Python project instead asks you to manually convert code instead of simply supporting both languages.</li>
+<li>When asked why they don't run both, members of the Python project have actually told me this is impossible. This is a lie. It is not impossible, and in fact would have been the better design to help with migration.</li>
+</ul>
+</blockquote>
+<p>So, why didn't the Python developers write a VM that supports both Python 2 and 3?</p>
+<h2>How does the Python interpreter work?</h2>
+<p>Zed says:</p>
+<blockquote>
+<p>Python 3 uses a Virtual Machine (VM) just like Python 2 did.</p>
+</blockquote>
+<p>This is true! When executing Python programs, the interpreter first compiles them down to intermediate bytecode that
+the Python virtual machine then executes.</p>
+<p><insert simple diagram showing intermediate bytecode representation></p>
+<p>For example, suppose I want to execute the following Python file:</p>
+<div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/python3</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;o hai!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>When I run <code>$ python3 ohai.py</code>, this code first gets translated into bytecode instructions (this is the <code>.pyc</code> files
+that get created alongside the Python source code). The bytecode is a series of operation code that tell the Python
+virtual machine what to do in a form that is much more simpler and efficient than raw Python code is. Using the  <code>dis</code>
+module, we can see that the above gets translated into something that looks like:</p>
+<div class="highlight"><pre><span></span>  <span class="mi">1</span>           <span class="mi">0</span> <span class="n">LOAD_NAME</span>                <span class="mi">0</span> <span class="p">(</span><span class="k">print</span><span class="p">)</span>
+              <span class="mi">3</span> <span class="n">LOAD_CONST</span>               <span class="mi">0</span> <span class="p">(</span><span class="s1">&#39;o hai!&#39;</span><span class="p">)</span>
+              <span class="mi">6</span> <span class="n">CALL_FUNCTION</span>            <span class="mi">1</span> <span class="p">(</span><span class="mi">1</span> <span class="n">positional</span><span class="p">,</span> <span class="mi">0</span> <span class="n">keyword</span> <span class="n">pair</span><span class="p">)</span>
+              <span class="mi">9</span> <span class="n">RETURN_VALUE</span>
+</pre></div>
+
+
+<p>The Python virtual machine then executes those instructions one after the other. This is very similar to how Java and
+the Java Virtual Machine work! We'll come back to this later.</p>
+<h2>Why is Python 3 backwards-incompatible?</h2>
+<p>Read http://python-notes.curiousefficiency.org/en/latest/python3/questions_and_answers.html!</p>
+<p>The first of those were aimed at making the language easier to learn, and easier to maintain. Keeping deprecated
+features around isn’t free: in order to maintain code that uses those features, everyone needs to remember them and new
+developers need to be taught them. Python 2 had acquired a lot of quirks over the years, and the 3.x series allowed
+such design mistakes to be corrected.</p>
+<p>--&gt; So moving this to the VM means keeping that cost of maintaining.</p>
+<h2>Could the Python 3 VM address this?</h2>
+<p>Zed Shaw compared to different versions of Java, JRuby/Java. Could the same have happened?</p>
+<p>My intuition: static vs dynamic. JVM has public spec -&gt; impact? </p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>This section of his post was amended, and originally went over a tangent about
+Turing-completeness. You can find the original version (as long as a counter-argument)
+<a href="https://eev.ee/blog/2016/11/23/a-rebuttal-for-python-3/#you-should-be-able-to-run-2-and-3">here</a>.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+  </div><!-- .content -->
+
+</section>
+
+
+    <!-- footer -->
+    <footer>
+      <div>
+        <p>
+          © Jérémie Jost, license <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC-BY-SA 4.0</a>
+          unless otherwise noted.
+          Generated by <a href= "http://docs.getpelican.com/">Pelican</a> with
+          <a href="http://github.com/porterjamesj/crowsfoot">crowsfoot</a> theme.
+        </p>
+      </div>
+      <div class="rc-scout"></div>
+    </footer>
+    <script async defer src="https://www.recurse-scout.com/loader.js?t=98dd9623239e601086e1737ce34297e6"></script>
+  </body>
+</html>
