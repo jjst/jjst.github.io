@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Brain dump.</title><link href="https://jjst.github.io/" rel="alternate"></link><link href="https://jjst.github.io/feeds/atom.xml" rel="self"></link><id>https://jjst.github.io/</id><updated>2016-10-20T18:00:00+01:00</updated><entry><title>RC return statement</title><link href="https://jjst.github.io/posts/2016/10/rc-return-statement/" rel="alternate"></link><published>2016-10-20T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-10-20:posts/2016/10/rc-return-statement/</id><summary type="html">&lt;p&gt;There's these one-day hackathons I go to once in a while. They're called BLT for Build, Learn, Teach. They're not like
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Brain dump.</title><link href="https://jjst.eu/" rel="alternate"></link><link href="https://jjst.eu/feeds/atom.xml" rel="self"></link><id>https://jjst.eu/</id><updated>2016-10-20T18:00:00+01:00</updated><entry><title>RC return statement</title><link href="https://jjst.eu/posts/2016/10/rc-return-statement/" rel="alternate"></link><published>2016-10-20T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.eu,2016-10-20:posts/2016/10/rc-return-statement/</id><summary type="html">&lt;p&gt;There's these one-day hackathons I go to once in a while. They're called BLT for Build, Learn, Teach. They're not like
 traditional hackathons with a theme or specific things to build. People come in in the morning and we have a group
 meeting where everyone shares what they're interested in or want to work on, then we form groups and pair or work on
 our own stuff.  At the end of the day, people share what they did. Sometimes they built something cool, sometimes they
@@ -71,8 +71,8 @@ a better programmer and want to pursue other passions.  That's perfectly fine. D
 &lt;p&gt;(I'm writing all of those lessons down because I know I'll forget about them from time to time)&lt;/p&gt;
 &lt;p&gt;If there's one thing I underestimated, it's how much the Recurse Center was (at least for me) a social experience.&lt;/p&gt;
 &lt;p&gt;My best moments were all spent sharing my passion for coding with other people. All the pair programming sessions. The
-workshops spontaneously organised by Recursers. The time we spent &lt;a href="https://jjst.github.io/posts/2016/08/building-a-photobooth-in-python/"&gt;hacking
-hardware&lt;/a&gt; or &lt;a href="https://jjst.github.io/posts/2016/08/group-pomodoros-are-awesome/"&gt;organising group pomodoros&lt;/a&gt;.  Or that
+workshops spontaneously organised by Recursers. The time we spent &lt;a href="https://jjst.eu/posts/2016/08/building-a-photobooth-in-python/"&gt;hacking
+hardware&lt;/a&gt; or &lt;a href="https://jjst.eu/posts/2016/08/group-pomodoros-are-awesome/"&gt;organising group pomodoros&lt;/a&gt;.  Or that
 time Justin organised &lt;em&gt;non-technical&lt;/em&gt; lightning talks were everyone could present on a topic they were passionate about
 as long as it &lt;em&gt;wasn't&lt;/em&gt; programming—and people talked about bird watching, genetics, how to cook the perfect tortilla,
 typography, or even how to flirt!&lt;/p&gt;
@@ -82,9 +82,9 @@ absent. RCers are always encouraging and enthusiastic about what you're doing, a
 are seen not as flaws but as opportunities to learn and grow. People see the best version of yourself, and in return,
 you want to be that person.&lt;/p&gt;
 &lt;p&gt;So yeah. Those three months have been amazing. I've built friendships. I've learnt a ton, about programming, about
-other things, about myself.  So long Recurse Center, and see you soon. Never graduate!&lt;/p&gt;</summary><category term="recurse center"></category></entry><entry><title>Group pomodoros are awesome</title><link href="https://jjst.github.io/posts/2016/08/group-pomodoros-are-awesome/" rel="alternate"></link><published>2016-08-10T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-08-10:posts/2016/08/group-pomodoros-are-awesome/</id><summary type="html">&lt;p&gt;Some of us productivity nerds tried something new this week at the &lt;a href="http://recurse.com/"&gt;Recurse Center&lt;/a&gt;: group
+other things, about myself.  So long Recurse Center, and see you soon. Never graduate!&lt;/p&gt;</summary><category term="recurse center"></category></entry><entry><title>Group pomodoros are awesome</title><link href="https://jjst.eu/posts/2016/08/group-pomodoros-are-awesome/" rel="alternate"></link><published>2016-08-10T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.eu,2016-08-10:posts/2016/08/group-pomodoros-are-awesome/</id><summary type="html">&lt;p&gt;Some of us productivity nerds tried something new this week at the &lt;a href="http://recurse.com/"&gt;Recurse Center&lt;/a&gt;: group
 pomodoros!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Cherry tomatoes" src="https://jjst.github.io/images/pomodoro/tomatoes.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Cherry tomatoes" src="https://jjst.eu/images/pomodoro/tomatoes.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;I employ the &lt;a href="http://pomodorotechnique.com/"&gt;pomodoro technique&lt;/a&gt; pretty often, especially when I'm working on long
 tasks that I tend to procrastinate on (say, writing a blog post...). It's one of those productivity hacks that is so
 simple in principle that it sounds too good to be true. The idea is as follows (cf
@@ -100,7 +100,7 @@ other people. You often need to collaborate and pair with other developers who a
 requires willpower to stay focused and wait for your break when the rest of your coworkers are having breaks at a
 different time. If you end up taking breaks with other people, it requires even more willpower to keep your pomodoro
 break to 5 minutes when the coffee break drags on.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Tomato timer" src="https://jjst.github.io/images/pomodoro/tomato-timer.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tomato timer" src="https://jjst.eu/images/pomodoro/tomato-timer.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Using the pomodoro technique in groups comes with some interesting perks. The added social pressure helps to keep you
 in check: seeing everyone "in the zone" at the same time during their pomodoros helps with concentration and
 motivation; and your partners can reprimand you if they see you spending time on the chat instead. Also, in a group,
@@ -116,16 +116,16 @@ dedicated shelf. This way everyone could constantly see how much time was left i
 with standard pomodoro, you could always do it low-tech and just use a standard kitchen timer).  Also, and this is the
 most crucial part: we implemented a reward system by having a huge bowl of M&amp;amp;M's everyone could pick from during their
 pomodoro breaks.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Setup" src="https://jjst.github.io/images/pomodoro/pomodoro-setup.jpg" /&gt;
+&lt;p&gt;&lt;img alt="Setup" src="https://jjst.eu/images/pomodoro/pomodoro-setup.jpg" /&gt;
 &lt;center&gt;&lt;small&gt;Our Pomodoro room setup&lt;/small&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;So if you've been using the pomodoro technique and know teammates or coworkers who do as well, I highly
 recommend trying out group pomodoros. And if you haven't used the pomodoro technique yet, give it a shot the next time
 you need to focus on a big task! As for me, the next thing I'd love to experiment with is using pomodoro for pair
-programming.&lt;/p&gt;</summary><category term="recurse center"></category><category term="productivity"></category><category term="pomodoro"></category></entry><entry><title>Building a photobooth in Python</title><link href="https://jjst.github.io/posts/2016/08/building-a-photobooth-in-python/" rel="alternate"></link><published>2016-08-06T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.github.io,2016-08-06:posts/2016/08/building-a-photobooth-in-python/</id><summary type="html">&lt;p&gt;The &lt;a href="https://www.recurse.com/five-years"&gt;Recurse Center is 5 years old&lt;/a&gt;!  Faculty threw a small party in the RC space
+programming.&lt;/p&gt;</summary><category term="recurse center"></category><category term="productivity"></category><category term="pomodoro"></category></entry><entry><title>Building a photobooth in Python</title><link href="https://jjst.eu/posts/2016/08/building-a-photobooth-in-python/" rel="alternate"></link><published>2016-08-06T18:00:00+01:00</published><author><name>Jérémie Jost</name></author><id>tag:jjst.eu,2016-08-06:posts/2016/08/building-a-photobooth-in-python/</id><summary type="html">&lt;p&gt;The &lt;a href="https://www.recurse.com/five-years"&gt;Recurse Center is 5 years old&lt;/a&gt;!  Faculty threw a small party in the RC space
 to celebrate the occasion, with current batch members and alumns welcome. Me and Philipp
 (&lt;a href="https://twitter.com/philj0st"&gt;@philj0st&lt;/a&gt;) marked the occasion by building a photobooth.
 Guests could use it to snap pics which then got posted to our internal chat system:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth pic" src="https://jjst.github.io/images/photobooth/group-pic.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Photobooth pic" src="https://jjst.eu/images/photobooth/group-pic.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;This is the story of how we built it in one afternoon right before the party.&lt;/p&gt;
 &lt;h2&gt;12:00&lt;/h2&gt;
 &lt;p&gt;After learning of the existence of a photobooth at a previous Recurse Center event, and finding a spare HD camera in
@@ -161,7 +161,7 @@ earlier this week.&lt;/p&gt;
 &lt;p&gt;Philipp sets up the laptop and the webcam, and installs and tests
 &lt;a href="https://en.wikipedia.org/wiki/Cheese_(software)"&gt;Cheese&lt;/a&gt;, a Gnome application to take webcam pictures. We have fun
 trying out a bunch of the built-in funky effects and make funny faces in front of the webcam:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth funky effects" src="https://jjst.github.io/images/photobooth/funky.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Photobooth funky effects" src="https://jjst.eu/images/photobooth/funky.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Meanwhile, Rachel finds the code for the old photobooth, but it's in Go (which I'm wildly unfamiliar with) and there
 seems to be a fair amount of hardcoded things which are going to make it tricky to adapt without a good grasp of the
 code.&lt;/p&gt;
@@ -231,9 +231,9 @@ that makes the trick and cut a hole the size of the arcade button using a utilit
 have to undo the soldering to be able to fit the button in. Re-soldering everything inside the shoebox turns out to be
 a lot more finicky, but Philipp manages. We wait for the solder to cool, then test everything again. Still works!  The
 dashboard ends up looking like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth dashboard" src="https://jjst.github.io/images/photobooth/dashboard.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Photobooth dashboard" src="https://jjst.eu/images/photobooth/dashboard.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Here's what it looks like inside, where you can see the N64 controller:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth inside" src="https://jjst.github.io/images/photobooth/inside.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Photobooth inside" src="https://jjst.eu/images/photobooth/inside.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;(Yes, we are using a hammer as a weight to stabilise the ensemble)&lt;/p&gt;
 &lt;h2&gt;19:00&lt;/h2&gt;
 &lt;p&gt;Time for the actual install! We save all environment variables we need for the zulip credentials and the settings to a
@@ -241,4 +241,4 @@ bash script, then shut down the laptop (remember, no battery!) to install it in 
 put the shoebox with the arcade button and the N64 controller on a shelf, then mount the HD webcam and the laptop above
 it. Plug everything together, set up the lighting, add some props, and voila! We're ready to take some pics, just in
 time for the party to start!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Photobooth setup" src="https://jjst.github.io/images/photobooth/setup.jpg" /&gt;&lt;/p&gt;</summary><category term="recurse center"></category><category term="hardware hacking"></category><category term="python"></category></entry></feed>
+&lt;p&gt;&lt;img alt="Photobooth setup" src="https://jjst.eu/images/photobooth/setup.jpg" /&gt;&lt;/p&gt;</summary><category term="recurse center"></category><category term="hardware hacking"></category><category term="python"></category></entry></feed>
