@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'J\xe9r\xe9mie Jost'
 SITENAME = u'Brain dump.'
 
-THEME = 'crowsfoot'
+THEME = '/home/jjst/dev/crowsfoot'
 
 # Theme-specific config
 EMAIL_ADDRESS = 'jeremiejost@gmail.com'
