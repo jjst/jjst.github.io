@@ -6,8 +6,8 @@ import os
 AUTHOR = u'J\xe9r\xe9mie Jost'
 SITENAME = u'Brain dump.'
 
-_theme = os.environ.get('PELICAN_THEME', '/home/jjst/dev/crowsfoot')
-THEME = _theme if os.path.isdir(_theme) else 'notmyidea'
+theme_path = os.environ.get('PELICAN_THEME', '/home/jjst/dev/crowsfoot')
+THEME = theme_path if os.path.isdir(theme_path) else 'notmyidea'
 
 # Theme-specific config
 EMAIL_ADDRESS = 'jeremiejost@gmail.com'
