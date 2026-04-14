@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = u'J\xe9r\xe9mie Jost'
 SITENAME = u'Brain dump.'
 
-THEME = '/home/jjst/dev/crowsfoot'
+_theme = os.environ.get('PELICAN_THEME', '/home/jjst/dev/crowsfoot')
+if os.path.isdir(_theme):
+    THEME = _theme
 
 # Theme-specific config
 EMAIL_ADDRESS = 'jeremiejost@gmail.com'
