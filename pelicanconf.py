@@ -6,8 +6,8 @@ import os
 AUTHOR = u'J\xe9r\xe9mie Jost'
 SITENAME = u'Brain dump.'
 
-configured_theme_path = os.environ.get('PELICAN_THEME', '/home/jjst/dev/crowsfoot')
-THEME = configured_theme_path if os.path.isdir(configured_theme_path) else 'notmyidea'
+configured_theme_path = os.environ.get('PELICAN_THEME')
+THEME = configured_theme_path if configured_theme_path and os.path.isdir(configured_theme_path) else 'notmyidea'
 
 # Theme-specific config
 EMAIL_ADDRESS = 'jeremiejost@gmail.com'
@@ -17,7 +17,7 @@ TWITTER_ADDRESS = 'https://twitter.com/j_jost'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/'
 LICENSE_NAME = 'CC-BY-SA 4.0'
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'favicon.ico']
 
 PATH = 'content'
 
