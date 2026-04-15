@@ -34,6 +34,8 @@ jobs:
           pip install -r requirements-pages.txt
 
       - name: Build site
+        env:
+          SITEURL: https://jjst.github.io/blog
         run: make publish
 
       - name: Copy CNAME
